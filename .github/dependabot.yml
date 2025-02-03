@@ -3,10 +3,9 @@ updates:
 - package-ecosystem: "npm"
   directory: "/"
   schedule:
-    interval: weekly
-    day: thursday
+    interval: daily
     time: "04:00"
-    timezone: Europe/Amsterdam
+    timezone: America/Sao_Paulo
   open-pull-requests-limit: 10
   commit-message:
     prefix: "build"
